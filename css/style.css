@@ -1,45 +1,44 @@
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
+
+* {box-sizing: border-box;}
+body {margin: 0;
+font-family:'Roboto';} 
+h1, h2, h3,h4{padding: 0 60px;
+             margin-bottom: 12px;}
+ul.topnav {
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
 }
 
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ul.topnav a{
+float: left;
 }
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('/img/image.png');
-  min-height: 100%;
+ul.topnav a{
+display: inline;
+color: aliceblue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
+ul.topnav a:hover:not(.active) {background-color: #111;}
+ul.topnav a:active{background-color: red;}
+ul.topnav a:right {float: right;}
+#video {margin:0 0px;width:100%; }
+div.article,.file,.contact { padding: 30px ;
+                            background-color: #570a8a;
+                            border-bottom: #e5e5e5;
+                            border-style: groove;
 
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/img/avatar_hat.jpg");
-  min-height: 400px;
+
+
+
+
+} 
+.media {padding-left: o 200px;}
+/* add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {width: 100%; height: auto;}
+/* REMOVE MARGIN TO THE "PAGE CONTENT" ON SMALL SCREENS */
+@media only screen and (max-width: 620px) {
+.topnav, .a, .right, .media{ width: 100%;}
 }
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
-}
-
-.gmc-wide {letter-spacing: 10px;}
-.gmc-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
-</style>
