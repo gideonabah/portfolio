@@ -4,80 +4,114 @@
     <meta charset="UTF-8">
     <title>Gideon Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="">
     <style>
+      * {box-sizing: border-box;}
+     body {margin: 0;
+    font-family:'Roboto';} 
+     h1, h2, h3,h4{padding: 0 60px;
+                   margin-bottom: 12px;}
+     ul.topnav {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+     }
+    
+     ul.topnav a{
+      float: left;
+     }
+     ul.topnav a{
+      display: inline;
+      color: aliceblue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+     }
+     ul.topnav a:hover:not(.active) {background-color: #111;}
+     ul.topnav a:active{background-color: red;}
+     ul.topnav a:right {float: right;}
+     #video {margin:0 0px;width:100%; }
+     div.article,.file,.contact { padding: 30px ;
+                                  background-color: #570a8a;
+                                  border-bottom: #e5e5e5;
+                                  border-style: groove;
 
+      
+      
+      
+
+    } 
+    .media {padding-left: o 200px;}
+     /* add a left margin to the "page content" that matches the width of the sidebar (120px) */
+     #main {width: 100%; height: auto;}
+     /* REMOVE MARGIN TO THE "PAGE CONTENT" ON SMALL SCREENS */
+    @media only screen and (max-width: 620px) {
+     .topnav, .a, .right, .media{ width: 100%;}
+    }
     </style>
-    <script src=""></script>
 </head>
 <body>
 
-  <div class="topnav">
+  <ul class="topnav">
     <a class="active" href="#home">Home</a>
     <i class="#material-icons"></i>
     <a href="#about">About</a>
     <a href="#work">Work</a>
     <a href="#about">Resume</a>
     <a href="#contact">Contact</a>
-</div> 
-<hr class="Dash">      
-
-<img src="img/image.png" alt="LA" style="width:100%">
-<hr class="Dash">      
-
-<div class="video">
-  <video width="100%" height="240" controls>
+  </ul>     
+<!--PAGE CONTENT-->
+<div class="media">
+  <video style="margin:0 0px;width:100%;"  controls >
     <source src="video/127919002-businessman-working-home-balco.mp4" type="video/mp4">
     <source src="img/127919002-businessman-working-home-balco.ogg" type="video/ogg">
     YOUR VIDEO IS NOT SUPPORTED YOUR BROWSER NEEDS UPDATE TRY gomycode Browser.
   </video>
-  <audio width="1" height="10" controls>
+
+  <audio style="margin:0 50px; width:100%;" controls>
     <source src="audio/Theophilus-Sunday-Seek-Your-Face.mp3" type="audio/ogg">
     <source src="audio/Min-Theophilus-Sunday-Only-You-P.mp3" type="audio/mpeg">
     Your AUDIO cant be played unsupported broswer download gomycode Browser
   </audio>
-  <div class="about-section">
+</div>
+  
+  <div class="about-section" id="about">
     <h1>About Us Page</h1>
     <p> my name is gideon and am a gomycode student running a full stack programe</p>
     <p>Am the baddest programmer ever if you need more detial ask my boss</p><a href="mailto:okekedavid1333@gmail.com">MR DAVID</a>
   </div>
 
 
-  <div class="work-section">
-    <h1> My Working Experence</h1>
+  <div class="work-section" id="work">
+    <h2> My Working Experence</h2>
     <p> my name is gideon and am a gomycode student running a full stack programe</p>
     <p>Am the baddest programmer ever if you need more details about my skills check out my projects on <a href="https://github.com/gideonabah">github</a> OR ask my boss</p><a href="mailto:okekedavid1333@gmail.com">MR DAVID</a>
   </div> 
 
 
-  <div class="file-section">
+  <div class="file">
     <form action="/action_page.php">
       <input type="file" id="myFile" name="filename">
       <input type="submit">
     </form>
   </div>
- 
-  <form>
+  <div class="contact"><form>
     <label for="fname"> First Name</label><br>
     <input type="text" id="fname" name="fname"><br>
     <label for="lname"> Last Name</label><br>
     <input type="text" id="lname" name="lname">
     <input type="submit" value="submit">
-  </form>
-</div>
-<hr class="Dash">      
+  </form></div>   
+<footer></footer>
 
-<footer>
  <article>
-  
-  <h1> GOMYCODE IS THE BEST SCHOOL IN ABUJA</h1>
-  <P>The Teachings Of GOMYCODE Is Execellence Very In Lessons Or Course Fee And The Enviroment Is Condiusive</P>
-  <P>We Learn And Get Employed At GOMYCODE Coding Schooling Come And Experience New Coding Enviroment At WUSE2 ABUJA NIGERIA</P>
-  <a href="mailto:hello@gomycode.com">GOMYCODE</a>
-</article> 
-</footer>
-<hr class="Dash">
-
+  <h1> GOMYCPODE IS THE BEST SCHOOL IN ABUJA</h1>
+  <P>THE TEACGING OF GOMYCODE IS EXCELLENCE VERY AFFORDSABLRE IN LESSONS OR COURSE FEE AND THE ENVIROMENT IS CONDUISIVE   WE LEARN AND GET EMPLOYED AT GOMYCODE CODING SCHOOL COME AND EXPERENCE NEW CODING ENVIROMENT AT WUSE2 ABUJA NIGERIA</P>
+ 
+  <a href="mailto:hello@gomycode.com">GOMYCODE</a></article>  
+</footer>     
 </div>
+<div style="background-color: #e5e5e5;text-align: center;padding: 10px; margin-top: 7px; border-style: inset;">Copyright gidyportfolio.com</div>
 </body>
 </html>
