@@ -14,7 +14,7 @@ background-color: #333;
 ul.topnav a{
 float: left;
 }
-ul.topnav a{
+ul.topnav a{grid-row-start:auto;
 display: inline;
 color: aliceblue;
 text-align: center;
