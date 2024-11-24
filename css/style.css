@@ -43,7 +43,6 @@ div.article,.file,.contact { padding: 30px ; background-color: #570a8a;border-bo
   border-style: groove;}
 #contact,#work,#about,#gomycode,#form {text-align: center;}
 .media {padding-left: o 200px;}
-.content{}
 /* add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {width: 100%; height: auto;}
 /* REMOVE MARGIN TO THE "PAGE CONTENT" ON SMALL SCREENS */
