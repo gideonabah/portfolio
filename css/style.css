@@ -27,8 +27,23 @@ ul.topnav a:right {float: right;}
 #video {margin:0 0px;width:100%; }
 div.article,.file,.contact { padding: 30px ; background-color: #570a8a;border-bottom: #e5e5e5; border-style: groove;
 } 
-#contact,#work,#about,#gomycode {text-align: center;}
+#rcorners{background: #050d5a;
+   padding: -3px; 
+   color: #e5e5e5; 
+   text-size-adjust: 1px;
+   border-radius: 15px 50px;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+.container{border-radius: 5px;
+   background-color: #f2f2f2; 
+   padding: 20px; }
+.row{ clear: both; 
+  border-style: groove;}
+#contact,#work,#about,#gomycode,#form {text-align: center;}
 .media {padding-left: o 200px;}
+.content{}
 /* add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {width: 100%; height: auto;}
 /* REMOVE MARGIN TO THE "PAGE CONTENT" ON SMALL SCREENS */
