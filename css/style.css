@@ -25,20 +25,14 @@ ul.topnav a:hover:not(.active) {background-color: #111;}
 ul.topnav a:active{background-color: red;}
 ul.topnav a:right {float: right;}
 #video {margin:0 0px;width:100%; }
-div.article,.file,.contact { padding: 30px ;
-                            background-color: #570a8a;
-                            border-bottom: #e5e5e5;
-                            border-style: groove;
-
-
-
-
-
+div.article,.file,.contact { padding: 30px ; background-color: #570a8a;border-bottom: #e5e5e5; border-style: groove;
 } 
+#contact,#work,#about,#gomycode {text-align: center;}
 .media {padding-left: o 200px;}
 /* add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {width: 100%; height: auto;}
 /* REMOVE MARGIN TO THE "PAGE CONTENT" ON SMALL SCREENS */
 @media only screen and (max-width: 620px) {
-.topnav, .a, .right, .media{ width: 100%;}
+.topnav, .a, .right, .media{ width: 100%; text-align: center;}
+
 }
