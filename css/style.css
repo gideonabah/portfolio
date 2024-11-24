@@ -6,13 +6,20 @@ h1, h2, h3,h4{padding: 0 60px;
              margin-bottom: 12px;}
 ul.topnav {
 margin: 0;
-padding: 0;
+padding:0;
 overflow: hidden;
-background-color: #333;
+position: fixed;
+background-color: #f30c0c;
+width: 100%;
+
 }
 
 ul.topnav a{
 float: left;
+padding: 14px 15px;
+text-align: center;
+display: block;
+
 }
 ul.topnav a{grid-row-start:auto;
 display: inline;
@@ -22,8 +29,8 @@ padding: 14px 16px;
 text-decoration: none;
 background-color: #fc0707;
 }
-ul.topnav a:hover:not(.active) {background-color: #111;}
-ul.topnav a:active{background-color: rgb(19, 17, 17);}
+ul.topnav a:hover:not(.active) {background-color: #443737;}
+ul.topnav a:active{background-color: rgb(5, 3, 3);}
 ul.topnav a:right {float: right;}
 #video {margin:0 0px;width:100%; }
 div.article,.file,.contact { padding: 30px ; background-color: #570a8a;border-bottom: #e5e5e5; border-style: groove;
