@@ -20,9 +20,10 @@ color: aliceblue;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
+background-color: #fc0707;
 }
 ul.topnav a:hover:not(.active) {background-color: #111;}
-ul.topnav a:active{background-color: red;}
+ul.topnav a:active{background-color: rgb(19, 17, 17);}
 ul.topnav a:right {float: right;}
 #video {margin:0 0px;width:100%; }
 div.article,.file,.contact { padding: 30px ; background-color: #570a8a;border-bottom: #e5e5e5; border-style: groove;
@@ -37,11 +38,12 @@ div.article,.file,.contact { padding: 30px ; background-color: #570a8a;border-bo
 
   }
 .container{border-radius: 5px;
-   background-color: #f2f2f2; 
+   background-color: #03224b;
+   background-image: url(/img/avatar_hat.jpg);
    padding: 20px; }
 .row{ clear: both; 
   border-style: groove;}
-#contact,#work,#about,#gomycode,#form {text-align: center;}
+#contact,#work,#about,#gomycode,#form{text-align: center;}
 .media {padding-left: o 200px;}
 /* add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {width: 100%; height: auto;}
